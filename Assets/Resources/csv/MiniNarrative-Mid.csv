@@ -1,0 +1,121 @@
+﻿ ,branch,speaker,text,choice_group,choice_text,next_id,next_choice,is_end
+1,main,Tom,"""Hi, David! Did you hear what happened with Steven?""",,,,main_1,FALSE
+2,main,PLAYER,,main_1,"A:""Steven? What happened to him? Tell me about it!""",5,,FALSE
+3,main,PLAYER,,main_1,"B:""Steven? I haven’t heard from him in a long time. What’s going on?""",6,,FALSE
+4,main,PLAYER,,main_1,"C:""Steven? What's up?""",7,,FALSE
+5,main,Tom,It seems like he sick recently.,,,,,TRUE
+6,main,Tom,"""He just back to home from hospital and many people will visit him.""",,,,,TRUE
+7,main,Tom,"""Super terrible! I heard people say Steven are ill.""",,,,,TRUE
+A_t3,main,,"""Steven—my best friends. When I needed help, he always help me. As Tom said  Steven ill seriously! I have to visit him immediately. Now I got a call form Jim but without any voice.",,,A_t4,,FALSE
+A_t4,main,,"Jim is mine kid. I am not sure whether is he okay? But what about Steven? If I don’t go, will his ghost follow my forever?",,,,Ec_1,FALSE
+A_T1,main,,Ec_1,Go see Jim to make sure he is safe,,,,TRUE
+A_T2,main,,Ec_1,Go see Steven in case he need any help,,,,TRUE
+C_1,A,,"""I sped up the mountain. Lucky, Jim everything is okay—but I afraid Steven still in trouble. Now, I just ready to go to Steven house and Jim says—""",,,8,,FALSE
+8,A,Jim,"""Pops, I notice your phone received a email.""",,,,A_1,FALSE
+9,A,PLAYER,,A_1,A:Oh really? Tell me the content.,A_n1,,FALSE
+10,A,PLAYER,,A_1,"B:""Quick, check who sent it!""",A_n2,,FALSE
+11,A,PLAYER,,A_1,"C:""Wow, do you know who send to me?!""",A_n3,,FALSE
+A_n1,A,,"""Dear David, I am seriously ill and need to go to another country for treatment. See you later. My heart stopped. oh,poor Steven and I am not a good friend...'Dad?' Jim’s voice snapped me back. I blinked hard.""",,,12,,FALSE
+A_n2,A,,"""Dear David, I am seriously ill and need to go to another country for treatment. See you later. My heart stopped. oh,poor Steven and I am not a good friend...'Dad?' Jim’s voice snapped me back. I blinked hard.""",,,13,,FALSE
+A_n3,A,,"""Dear David, I am seriously ill and need to go to another country for treatment. See you later. My heart stopped. oh,poor Steven and I am not a good friend...'Dad?' Jim’s voice snapped me back. I blinked hard.""",,,14,,FALSE
+12,A,Jim,Dad... Uncle Steven would be okay?,,,,A_2,FALSE
+13,A,Jim,Dad... are you okay?,,,,A_2,FALSE
+14,A,Jim,Papa... Uncle Steven is too kind and I am so sorry to hear that.,,,,A_2,FALSE
+15,A,PLAYER,,A_2,"A:""I never saw this coming... let me alone son""",A_n4,,FALSE
+16,A,PLAYER,,A_2,"B:""I am not sure but seems like he really serious""",A_n4,,FALSE
+17,A,PLAYER,,A_2,"C:""So do I and hope god bless him everything will going well.""",A_n4,,FALSE
+A_n4,A,,"""Overall, I feel a little lost and feel that I haven't taken good care of Steven, but I hope he recovers quickly and I will explain it to him when he comes back.""",,,,,TRUE
+C_2,A,,"Suddenly, I spotted Jenny by the roadside—my old friend, Jenny! I immediately braked and called out to her.",,,18,,FALSE
+18,A,Jenny,"Hi David, long time no see! I moved here.",,,,A_3,FALSE
+19,A,PLAYER,,A_3,"A:""That's great! Now we can catch up sometimes—and hey, if you ever need help, just say the word!""",22,,FALSE
+20,A,PLAYER,,A_3,"B:I'm really glad you're here. Hope you'll like the neighborhood—and remember, my door's always open.",23,,FALSE
+21,A,PLAYER,,A_3,"C:""Same here! All's good on my end. Don't be shy if you need anything, okay?""",24,,FALSE
+22,A,Jenny,"""Thank you David""",,,A_n5,,FALSE
+23,A,Jenny,"""You are so lovely and I will knock your door""",,,A_n5,,FALSE
+24,A,Jenny,"""That would be super nice.""",,,A_n5,,FALSE
+A_n5,A,,"""Leaving Jenny, old memories hit—her skipping school, our fights, messy marriages. But anyway everything pass and now we are old, cherish the daily life is necessary~",,,,,TRUE
+25,A,Tom,"""Hey, heard Jenny’s living nearby now. Cops are after her too—she did time. Just watch your back, okay?""",,,,A_4,FALSE
+26,A,PLAYER,,A_4,"A:""Oh, thanks for the heads-up—I didn't know about that. I'll definitely be careful.""",A_n6,,FALSE
+27,A,PLAYER,,A_4,"B:""Really? That's kind of scary... I appreciate you telling me though.""",A_n6,,FALSE
+28,A,PLAYER,,A_4,"C:""Oh my god, how did this happen? Okay, I'll stay alert.""",A_n6,,FALSE
+A_n6,A,,"Tom’s words dragged up my Jenny prejudices—ugly memories rushing back. Yeah, I’m biased. Even biking lost its joy; I just raced home to warn my son.Found him waiting at the door. Blurted it out instantly.",,,,,TRUE
+29,A,Jim,"Hey Dad, you're back! How was your ride?",,,,A_5,FALSE
+30,A,PLAYER,,A_5,"A:""Yeah I met a old friend today but in the past she’s trouble and maybe we should stay away from her.""",33,,FALSE
+31,A,PLAYER,,A_5,"B:""I met Jenny today. We need to talk.She’s moving in. Problem? Cops want her. Bad rep too. That’s why I’m uneasy.""",34,,FALSE
+32,A,PLAYER,,A_5,"C:""Hi Jim,actually today I met Jenny she was never family-close. After years of bad rumors, I’m cautious.""",35,,FALSE
+33,A,Jim,"""Oh, I see... But Dad, maybe we shouldn't judge her based on rumors? What if we talk to her first—this could all just be prejudice.""",,,,A_6,FALSE
+34,A,Jim,"""Hmm, you're right. But Uncle Steven was so kind, even though we lost touch. Maybe we should hear her out? She's his only family after all.""",,,,A_6,FALSE
+35,A,Jim,"""I get it. But people are complex, Dad. Maybe we just treat her normally—without assumptions?""",,,,A_6,FALSE
+36,A,PLAYER,,A_6,"A:""Son... hearing you say that makes me ashamed of myself. I'll go talk to her properly this time.""",A_n7,,FALSE
+37,A,PLAYER,,A_6,"B:""Thank you, son—you're truly better than I am. Alright, I'm going to meet her and have that talk now.""",A_n7,,FALSE
+38,A,PLAYER,,A_6,"C:""That's my boy. I'm inviting her over for dinner tonight.""",A_n7,,FALSE
+A_n7,A,,"""Post-talk with my son, I raced to Jenny. He was right—no more judging. About Jenny, What if rumors lied? I pedaled harder—there she was.At her place, she stood outside. I grabbed the chance and spoke.""",,,,,TRUE
+39,A,Jenny,"""David, I want tell you the truth""",,,,A_7,FALSE
+40,A,PLAYER,,A_7,"A:""Go ahead, I'm Listening.""",43,,FALSE
+41,A,PLAYER,,A_7,"B:""Oh? Well then, tell me.""",44,,FALSE
+42,A,PLAYER,,A_7,"C:""Understood. I'm all ears.""",45,,FALSE
+43,A,Jenny,Did time—killed abusive hubby. Self-defense. Fresh out. World didn’t want me sometime I have to steal money for living but now I just want die quite.,,,,A_8,FALSE
+44,A,Jenny,"""My husband destroyed me and I killed him then stole to survive. Not that person anymore. Just... let me stay.""",,,,A_8,FALSE
+45,A,Jenny,"""Yeah, I did time. There were...fatal accidents. Back then? Pure survival mode - stole when desperate. Don't mistake me, I own that shit. But that life's behind me.""",,,,A_8,FALSE
+46,A,PLAYER,,A_8,"A:""I understand... but Jenny, is it true what they're saying about the police looking for you?""",49,,FALSE
+47,A,PLAYER,,A_8,"B:""I get the picture. But Jenny—are you actually wanted by the police right now?""",50,,FALSE
+48,A,PLAYER,,A_8,"C:""Life's been hard on you, I see. But Jenny... are the police after you these days?""",51,,FALSE
+49,A,Jenny,"""Look... I know I was wrong. Don't expect forgiveness. But with this terminal illness... just let me live quietly here. Will you keep my secret? Won't force you.""",,,A_n8,,FALSE
+50,A,Jenny,"""Should still be jailed... but came here instead. The ill—just let me die in the town.""",,,A_n8,,FALSE
+51,A,Jenny,"""True. But I can't go back—won't die in prison. Yet I won't risk you. If needed, turn me in. I'll understand.""",,,A_n8,,FALSE
+A_n8,A,,"""After listening to Jenny's words, I felt that she was really pitiful. On the one hand, what she did was wrong, but on the other hand, it was understandable..""",,,,A_13,FALSE
+Ec_3,A,,,A_13,A: Acquiesce to everything that happens and stop asking questions,A_end,,FALSE
+Ec_4,A,,,A_13,B: Say goodbye to her and keep your distance,A_end,,FALSE
+A_end,A,,Game over. Thank you for playing!,,,,,TRUE
+52,B,Steven,"""David! You came! I am so happy""",,,,B_1,FALSE
+53,B,PLAYER,,B_1,"A:Are you okay , I am so worry about you??",56,,FALSE
+54,B,PLAYER,,B_1,"B:oh, my friend! Is there something made you uncomfortable?",57,,FALSE
+55,B,PLAYER,,B_1,"C:""Are you good ? I am so happy you looks still well.""",58,,FALSE
+56,B,Steven,"Thank you David, I am okay,you are so lovely",,,B_n1,,FALSE
+57,B,Steven,Oh my bro! I am good! Thank you coming here,,,B_n1,,FALSE
+58,B,Steven,"""Yes! Still alive just kidding, I feel okay.""",,,B_n1,,FALSE
+B_n1,B,,"""I talk to Steven and then he suggest me contact Jim soon, he dont want influence our relationship. But Jim still angry with this experience and when something happen, jim will complain the thing again. This morning, I finally cracked—grabbed my keys and biked off to escape the guilt.""",,,,,TRUE
+59,B,Jenny,"""Yo, David! That you?""",,,,B_2,FALSE
+60,B,PLAYER,,B_2,"A:Hi Jenny, Can't believe you're actually here - this is wild!""",63,,FALSE
+61,B,PLAYER,,B_2,B:Hi! Jenny! When time you come here?,64,,FALSE
+62,B,PLAYER,,B_2,C:Hey! Jenny! Amazing! How have you been?,65,,FALSE
+63,B,Jenny,"""Exactly, I am here now! Anyway ,go do your thing—coffee soon?""",,,B_n2,,FALSE
+64,B,Jenny,I just move here recently and go ahead—See you soon~,,,B_n2,,FALSE
+65,B,Jenny,"Yeah, everything is going well! I have to say time flies! But we're living' in the now! Anyway—catch you soon!",,,B_n2,,FALSE
+B_n2,B,,"Jenny looked exhausted as I left. Steven's dying words gutted me—Mom made her leave 'for my sake.' We'd dreamed of traveling the world... then she disappeared. I ran, married Jim’s mom. Now, seeing her again—I needed to talk to her.",,,,,TRUE
+66,B,Tom,"""Hi, David, Jenny moved here and she is sick"".",,,,B_3,FALSE
+67,B,PLAYER,,B_3,"A:""Its too bad?  Had no idea...""",70,,FALSE
+68,B,PLAYER,,B_3,"B:""Sick?  She told me everything was cool—I totally bought it.""",71,,FALSE
+69,B,PLAYER,,B_3,C:What happened to her? What’s the illness? Is it serious?,72,,FALSE
+70,B,Tom,"""Yeah, my wife told me—sounds like she's need go to hospital """,,,,,TRUE
+71,B,Tom,"""Jenny still shouldering everything alone. Breaks my heart""",,,,,TRUE
+72,B,Tom,"""Pretty sure she is sick—but don't quote me. Go ask her direct.""",,,,,TRUE
+B_n3,B,,"""After leaving my Tom, I biked home to check on my son - he's been moody lately and I didn't want to upset him further.""",,,73,,FALSE
+73,B,Jim,"Dad, where did you go? See your friends ignore me again?",,,,B_4,FALSE
+74,B,PLAYER,,B_4,"A:How can I explain this to you? Back then, I really had no choice. Now,Steven’s sister is also alone and helpless. As a friend, isn’t it okay to show some concern?",77,,FALSE
+75,B,PLAYER,,B_4,B:I just... didn't realize how hard you had it. Now my old friend jenny is sick and  I'm terrified she'll get screwed over too.,78,,FALSE
+76,B,PLAYER,,B_4,"C:It’s my fault for not being more attentive. Honestly, I never meant to not care about you.",79,,FALSE
+77,B,Jim,"""Guess friends beyond family to you. Done talking. Keep choosing them over me? ",,,B_n4,,FALSE
+78,B,Jim,"""Hah! Scared for her, but not me? ",,,B_n4,,FALSE
+79,B,Jim,No need to explain. Just don’t let it happen again. ,,,B_n4,,FALSE
+B_n4,B,,"Jim’s words crushed me. I couldn't let him doubt my love—but Jenny’s health still gnawed at me. After settling him for his nap, I biked to her place alone to check on her.",,,,,TRUE
+80,B,Jenny,"Hey David, why you come here?",,,,B_5,FALSE
+81,B,PLAYER,,B_5,"A:You really should’ve told us. Did anyone go with you to the hospital?""",84,,FALSE
+82,B,PLAYER,,B_5,"B:""I heard someone say you are sick""",85,,FALSE
+83,B,PLAYER,,B_5,"C:""You should’ve told us, no question. Are you okay ?""",86,,FALSE
+84,B,Jenny,"""My husband passed away, and I don’t have any children. My brother also left just days ago... That’s why I’ve been putting this off.""",,,B_n8a,,FALSE
+85,B,Jenny,"""David, you’ve always been so thoughtful... But the truth is, there’s no one left to take care of me.""",,,B_n8b,,FALSE
+86,B,Jenny,"Right now, I have nothing planned.",,,B_n8c,,FALSE
+B_n8a,B,,"""But Jenny still say ,she can do everything by herself and the sick is not serious, she suggest me put more attention on my son instead of her. I lost in my guilt, Jenny’s voice cuts through...""",,,87,,FALSE
+B_n8b,B,,"""But Jenny still say ,she can do everything by herself and the sick is not serious, she suggest me put more attention on my son instead of her. I lost in my guilt, Jenny’s voice cuts through...""",,,88,,FALSE
+B_n8c,B,,"""But Jenny still say ,she can do everything by herself and the sick is not serious, she suggest me put more attention on my son instead of her. I lost in my guilt, Jenny’s voice cuts through...""",,,89,,FALSE
+87,B,Jenny,"David, don't worry about me. I am okay",,,B_n5,,FALSE
+88,B,Jenny,Thanks... but save your strength. I'll manage—it's nothing serious.,,,B_n5,,FALSE
+89,B,Jenny,"David I am okay. Doesn't weigh on me... You take care of yourself first, alright?""",,,B_n5,,FALSE
+B_n5,B,,"She words made me fresh and I totally understand her and start know my son,now I just want to…",,,,B_6,FALSE
+B_fc1,B,PLAYER,,B_6,A: Follow Jenny’s advice and go home,B_end,,FALSE
+B_fc2,B,PLAYER,,B_6,B:  Insist on staying with Jenny,B_end,,FALSE
+B_end,B,,Game over. Thank you for playing!,,,,,TRUE
+,,,,,,,,
+,,,,,,,,
+intro_0,main,,"I am David, a retired widower living with your son, Jim. I also have a best friend ---Steven, who always accompany with my during any time.Today, under a sunny, breezy sky, Jim is off hiking with friends while my savor the gentle wind at the start of mine afternoon bike ride.",,,,,TRUE
